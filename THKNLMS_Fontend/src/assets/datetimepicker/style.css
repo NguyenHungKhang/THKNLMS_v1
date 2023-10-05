@@ -1,0 +1,9 @@
+.custom-datetimepicker label {
+    font-size: 1.4rem !important;
+    font-weight: bold;
+    top: -2.5px;
+}
+
+.custom-datetimepicker fieldset legend span {
+    font-size: 1.15rem !important;
+}

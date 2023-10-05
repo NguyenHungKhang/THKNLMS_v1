@@ -1,0 +1,28 @@
+.quill .ql-toolbar {
+    border: none !important;
+    border-bottom: 3px solid #cccccc !important;
+    margin-bottom: 10px;
+    background-color: #f5f5f5;
+}
+
+.quill .ql-container {
+    border: none !important;
+    border-bottom: 3px solid #007bff !important;
+    background-color: #f5f5f5;
+    min-height: 100px;
+}
+
+.exercise-editor .ql-toolbar {
+    border: none !important;
+    border-bottom: 3px solid #cccccc !important;
+    margin-bottom: 10px;
+    background-color: #f5f5f5;
+}
+
+.exercise-editor .ql-container {
+    border: none !important;
+    border-bottom: 3px solid #007bff !important;
+    background-color: #f5f5f5;
+    min-height: 150px;
+    font-size: 16px;
+}

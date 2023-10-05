@@ -1,0 +1,33 @@
+app:
+ googleClientId: 1025737882254-rcu8v1a8u8m55hddef25dvjtbetpp2dh.apps.googleusercontent.com
+ jwtSecret: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWUsImlhdCI6MTUxNjIzOTAyMn0.VFb0qJ1LRg_4ujbZoRMXnVkUgiuKq5KxWqNdbKq_G9Vvz-S1zZa9LPxtHWKa64zDl2ofkT8F6jBt_K4riU-fPg
+server:
+  port: 8081
+  servlet:
+    context-path: /THKNLMS
+spring:
+  datasource:
+    password: Khang1598753248620
+    url: jdbc:mysql://127.0.0.1:3306/kyxnangwspktlms
+    username: root
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        format_sql: true
+        ddl-auto: none
+        naming:
+          physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    show-sql: true
+  security:      
+    oauth2:
+      client:
+        registration:
+         google:
+          client-id: 1025737882254-rcu8v1a8u8m55hddef25dvjtbetpp2dh.apps.googleusercontent.com
+          client-secret: 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
+          scope:
+           - email
+           - profile
+           - https://www.googleapis.com/auth/userinfo.profile
+          
